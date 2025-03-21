@@ -6,10 +6,10 @@ git clone https://github.com/Layer-Edge/light-node.git && cd light-node
 ```
 ## Step 2: Install Required Dependencies
 ```
-curl -L https://risczero.com/install | bash && rzup install
+curl -L https://risczero.com/install | bash && source "/root/.bashrc"
 ```
 ```
-rzup show
+rzup install && rzup show
 ```
 ## Step 3: Configure Environment Variables
 ```
